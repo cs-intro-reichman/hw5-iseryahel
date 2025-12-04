@@ -5,7 +5,7 @@ public class Wordle {
 
 		In in = new In(filename); // create a new in 
 
-        String[] allWords = in.readAllLines(); 
+        String[] allWords = in.readAllStrings(); 
         // read all words from the file and put in array
         
         return allWords;
